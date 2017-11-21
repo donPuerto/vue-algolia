@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import algoliasearch from 'algoliasearch';
+// import algoliasearch from 'algoliasearch';
 export default {
   name: 'app',
   data () {
