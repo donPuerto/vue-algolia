@@ -14,26 +14,26 @@ export default {
     }
   },
   mounted () {
-    var client = algoliasearch("CWXDLY1OTX", "4254350ce0d92f61642c728261e9c6a0");
-    var index = client.initIndex('contacts');
+    // var client = algoliasearch("CWXDLY1OTX", "4254350ce0d92f61642c728261e9c6a0");
+    // var index = client.initIndex('contacts');
 
 
-    var objects = [{
-      objectID: 'myID1',
-      firstname: 'Jimmie',
-      lastname: 'Barninger'
-    }, {
-      objectID: 'myID2',
-      firstname: 'Warren',
-      lastname: 'Speach'
-    }];
+    // var objects = [{
+    //   objectID: 'myID1',
+    //   firstname: 'Jimmie',
+    //   lastname: 'Barninger'
+    // }, {
+    //   objectID: 'myID2',
+    //   firstname: 'Warren',
+    //   lastname: 'Speach'
+    // }];
 
-    index.addObjects(objects, function(err, content) {
-      console.log('content',content);
-      if (err) {
-        console.error('err', err);
-      }
-    });
+    // index.addObjects(objects, function(err, content) {
+    //   console.log('content',content);
+    //   if (err) {
+    //     console.error('err', err);
+    //   }
+    // });
 
   }
 }
